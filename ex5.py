@@ -1,4 +1,4 @@
-def primes_under_n() -> set[int]:
+def primes_under_n() -> set:
     
     """
     Finds all prime numbers less than n using the Eratosthenes algorithm
