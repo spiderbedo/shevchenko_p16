@@ -1,4 +1,4 @@
-def find_courses(students_courses) -> set:
+def find_courses(students_courses: list) -> set:
     '''
     Finds the number of courses that every student chose
     Args:
