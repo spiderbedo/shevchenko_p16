@@ -1,6 +1,6 @@
 from itertools import permutations
 
-def all_permutations():
+def all_permutations() -> None:
     numbers_set = set(map(int, input().split()))
     numbers = sorted(numbers_set)
     perms = permutations(numbers)
