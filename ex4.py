@@ -16,5 +16,4 @@ def intersection() -> bool:
 
 
 if __name__ == "__main__":
-    result = intersection()
-    print(result)
+    print(intersection())
