@@ -2,8 +2,8 @@ def find_courses(students_courses) -> set:
     '''
     Finds the number of courses that every student chose
     Args:
-        students_courses (list): Список множеств с курсами каждого студента
-    Return: set: Множество общих курсов
+        students_courses (list): A list of sets of every student
+    Return: set: A set of common courses
     '''
 
     if not students_courses:
