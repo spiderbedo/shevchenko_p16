@@ -2,8 +2,6 @@ def intersection() -> bool:
 
     """
     Finds out whether a given number exists in the intersection of two sets or not.
-    Args:
-        None
     Returns:
         bool
     """
