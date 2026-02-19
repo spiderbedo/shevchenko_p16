@@ -3,7 +3,8 @@ def find_courses(students_courses: list) -> set:
     Finds the number of courses that every student chose
     Args:
         students_courses (list): A list of sets of every student
-    Return: set: A set of common courses
+    Return: 
+        set: A set of common courses
     '''
 
     if not students_courses:
