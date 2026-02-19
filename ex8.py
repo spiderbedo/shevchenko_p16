@@ -12,8 +12,8 @@ def get_subsets() -> list:
         return []
     elem = stroka.split()
     subsets = []
-    for r in range(len(elem) + 1):
-        for combo in combinations(elem, r):
+    for i in range(len(elem) + 1):
+        for combo in combinations(elem, i):
             subsets.append(list(combo))
     return subsets
 
