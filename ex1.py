@@ -6,7 +6,8 @@ def find_repeated(numbers: str, needed_str: str) -> bool:
     Args:
         numbers: str
         needed_str: str
-    Return: True if the number is repeated in the sequence, otherwise False.
+    Return: 
+        True if the number is repeated in the sequence, otherwise False.
     '''
 
     spisok = list(map(int, numbers.split()))
