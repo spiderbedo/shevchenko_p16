@@ -4,8 +4,8 @@ def find_repeated(numbers: str, needed_str: str) -> bool:
     Checks whether the target number is among the repeating elements
     in the sequence.
     Args:
-        numbers
-        needed_str
+        numbers: str
+        needed_str: str
     Return: True if the number is repeated in the sequence, otherwise False.
     '''
 
@@ -26,5 +26,4 @@ def find_repeated(numbers: str, needed_str: str) -> bool:
 if __name__ == "__main__":
     input_nums = input()
     input_needed = input()
-    result = find_repeated(input_nums, input_needed)
-    print(result)
+    print(find_repeated(input_nums, input_needed))
