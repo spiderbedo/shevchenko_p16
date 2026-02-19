@@ -2,7 +2,7 @@ def only_sladkoezhkin() -> int:
 
     '''
     Finds how many products are liked only by Sladkoezhkin.
-    Return: int
+    Return: len(only_sladko): int
     '''
 
     sladkoezhkin = set(input().split())
