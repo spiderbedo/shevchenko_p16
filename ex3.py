@@ -2,8 +2,7 @@ def only_sladkoezhkin() -> int:
 
     '''
     Finds how many products are liked only by Sladkoezhkin.
-    Args: None
-    Return: set: None
+    Return: int
     '''
 
     sladkoezhkin = set(input().split())
